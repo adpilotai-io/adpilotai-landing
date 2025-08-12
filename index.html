@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdPilot AI - Grow your brand automatically</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background-color:#f8fafc; color:#1f2937; }
+    header {
+      background: linear-gradient(to right, #0066ff, #00ccff);
+      color:white; padding:80px 20px;
+      text-align:center;
+    }
+    header h1 { font-size:40px; margin:0 0 10px; }
+    header p { font-size:18px; margin:0; }
+    section { padding:40px 20px; max-width:800px; margin:0 auto; }
+    .features { display:flex; flex-wrap:wrap; gap:20px; justify-content:space-between; }
+    .feature { flex:1 1 250px; background:white; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,.1); padding:20px; }
+    .feature h3 { margin-top:0; }
+    form { background:white; padding:20px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,.1); }
+    form div { margin-bottom:15px; }
+    label { display:block; margin-bottom:5px; font-weight:bold; }
+    input { width:100%; padding:10px; border:1px solid #cbd5e0; border-radius:4px; }
+    button {
+      display:block; width:100%; padding:12px; background:#0066ff; color:white; border:none; border-radius:4px; font-size:16px; cursor:pointer;
+    }
+    button:hover { background:#0052cc; }
+    footer { text-align:center; padding:20px; font-size:14px; color:#6b7280; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AdPilot AI</h1>
+    <p>Turn products into profit automatically.</p>
+  </header>
+  <section>
+    <h2>How it works</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Generate Creatives</h3>
+        <p>Our AI crafts high‑converting ad creatives from your product feed and brand assets.</p>
+      </div>
+      <div class="feature">
+        <h3>Launch & Test</h3>
+        <p>We automatically launch campaigns on TikTok and Meta, and test multiple angles at once.</p>
+      </div>
+      <div class="feature">
+        <h3>Optimize & Grow</h3>
+        <p>Winning creatives get more budget and poor performers are paused. You grow faster.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Apply for the Pilot</h2>
+    <p>We’re onboarding a limited number of brands. Tell us a bit about yourself.</p>
+    <!-- The form sends users to the thanks page on submission. Replace with your own action if handling leads server‑side. -->
+    <form action="thanks.html" method="get">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div>
+        <label for="store">Store URL</label>
+        <input id="store" name="store" type="url" required>
+      </div>
+      <div>
+        <label for="spend">Monthly Ad Spend (USD)</label>
+        <input id="spend" name="spend" type="number" step="1" required>
+      </div>
+      <button type="submit">Apply Now</button>
+    </form>
+  </section>
+  <footer>
+    &copy; 2025 AdPilot AI. All rights reserved.
+  </footer>
+</body>
+</html>
