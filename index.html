@@ -1,78 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>AdPilot AI – Turn products into profit automatically</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: 'Inter', sans-serif; }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <header class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navigation -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
     <nav class="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
-      <div class="flex items-center space-x-2">
-        <span class="text-2xl">🚀</span>
+      <a href="/" class="flex items-center space-x-2">
+        <span class="text-3xl">🚀</span>
         <span class="text-2xl font-bold">AdPilot AI</span>
-      </div>
+      </a>
       <a href="#apply" class="hidden sm:inline-block bg-white text-indigo-600 font-semibold px-4 py-2 rounded-full shadow hover:bg-indigo-50 transition">Apply</a>
     </nav>
-    <div class="py-20 px-4 text-center">
-      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Turn products into profit automatically.</h1>
-      <p class="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">AdPilot AI generates winning ads, launches tests, and reallocates budget to top performers every day.</p>
-      <a href="#apply" class="inline-block bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full shadow hover:bg-indigo-50 transition">Apply for pilot</a>
-    </div>
   </header>
 
-  <section class="py-16" id="features">
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="text-center p-6 bg-white rounded-xl shadow">
-          <div class="text-4xl mb-4 text-indigo-600">🎯</div>
-          <h3 class="text-xl font-semibold mb-2">Generate & Test Ads</h3>
-          <p class="text-gray-600">Plug in your product feed and let AI create multiple ad hooks, scripts, and captions ready for TikTok and Meta.</p>
+  <!-- Hero -->
+  <section class="bg-white">
+    <div class="max-w-4xl mx-auto text-center py-20 px-6">
+      <h1 class="text-4xl sm:text-5xl font-extrabold mb-6 text-gray-800">Turn your products into profit automatically.</h1>
+      <p class="text-lg text-gray-600 mb-8">AdPilot AI generates winning ads, launches tests and reallocates budgets daily so you don't have to.</p>
+      <a href="#apply" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition">Get 3 Free Hooks</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Why AdPilot AI?</h2>
+      <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full mb-4">
+            <span class="text-2xl">🎯</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Generate & Test Ads</h3>
+          <p class="text-gray-600">AI crafts multiple creative angles from your products and runs A/B tests automatically.</p>
         </div>
-        <div class="text-center p-6 bg-white rounded-xl shadow">
-          <div class="text-4xl mb-4 text-indigo-600">📊</div>
-          <h3 class="text-xl font-semibold mb-2">Auto-Optimize Budgets</h3>
-          <p class="text-gray-600">We launch tests and automatically shift budget to the winners every 24 hours—pause losers and scale winners.</p>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full mb-4">
+            <span class="text-2xl">⚙️</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Optimize & Allocate</h3>
+          <p class="text-gray-600">Budgets shift to the best performers every day—no manual checks required.</p>
         </div>
-        <div class="text-center p-6 bg-white rounded-xl shadow">
-          <div class="text-4xl mb-4 text-indigo-600">📩</div>
-          <h3 class="text-xl font-semibold mb-2">Daily Insights</h3>
-          <p class="text-gray-600">Get a daily digest via Slack or email with new creative hooks and top actions to grow your store revenue.</p>
+        <div class="bg-white shadow-lg rounded-lg p-6">
+          <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full mb-4">
+            <span class="text-2xl">📈</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Proven Revenue Lift</h3>
+          <p class="text-gray-600">DTC brands see up to 30% ROAS improvement and extra revenue within 30 days.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-16 bg-indigo-50" id="apply">
-    <div class="max-w-3xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-4">Join our 60-day pilot</h2>
-      <p class="text-gray-700 mb-8">Limited spots for early-stage DTC brands. We add new revenue or the pilot is free.</p>
-      <form action="/api/lead" method="POST" class="bg-white rounded-xl shadow p-8 grid gap-6">
-        <input type="hidden" name="_subject" value="AdPilot AI Pilot Application" />
-        <div>
-          <label for="name" class="block text-left font-medium mb-1">Name</label>
-          <input id="name" name="name" type="text" required class="w-full border-gray-300 rounded-lg px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500" />
-        </div>
-        <div>
-          <label for="email" class="block text-left font-medium mb-1">Email</label>
-          <input id="email" name="email" type="email" required class="w-full border-gray-300 rounded-lg px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500" />
-        </div>
-        <div>
-          <label for="store" class="block text-left font-medium mb-1">Store URL</label>
-          <input id="store" name="store" type="url" required class="w-full border-gray-300 rounded-lg px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500" />
-        </div>
-        <button type="submit" class="bg-indigo-600 text-white font-semibold rounded-lg py-3 px-6 hover:bg-indigo-700 transition">Apply Now</button>
-      </form>
+  <!-- Pilot Application -->
+  <section id="apply" class="py-16 bg-white">
+    <div class="max-w-xl mx-auto px-4">
+      <div class="bg-gray-50 rounded-lg shadow-lg p-8">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800">Apply for the 60‑Day Pilot</h2>
+        <form id="pilot-form" class="space-y-4">
+          <div>
+            <label for="name" class="block font-medium mb-1">Name</label>
+            <input type="text" id="name" name="name" class="w-full border-gray-300 rounded-md p-3 focus:ring-indigo-500 focus:border-indigo-500" required>
+          </div>
+          <div>
+            <label for="email" class="block font-medium mb-1">Email</label>
+            <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md p-3 focus:ring-indigo-500 focus:border-indigo-500" required>
+          </div>
+          <div>
+            <label for="store" class="block font-medium mb-1">Store URL</label>
+            <input type="text" id="store" name="store" class="w-full border-gray-300 rounded-md p-3 focus:ring-indigo-500 focus:border-indigo-500" required>
+          </div>
+          <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-md transition">Get Started</button>
+        </form>
+      </div>
     </div>
   </section>
 
-  <footer class="py-8 bg-gray-100">
-    <p class="text-center text-sm text-gray-500">&copy; 2025 AdPilot AI</p>
-  </footer>
+  <script>
+  // Handle pilot form submission by sending JSON to API and redirecting on success
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('pilot-form');
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        store: form.store.value
+      };
+      try {
+        const res = await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData)
+        });
+        if (res.ok) {
+          window.location.href = '/thanks.html';
+        } else {
+          alert('There was an error submitting your application. Please try again.');
+        }
+      } catch (err) {
+        console.error(err);
+        alert('There was an error submitting your application. Please try again.');
+      }
+    });
+  });
+  </script>
 </body>
 </html>
